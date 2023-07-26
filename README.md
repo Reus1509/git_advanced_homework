@@ -1,1 +1,1 @@
-# git_advanced_homework
+This is a repo for my homework in git_advanced course.
