@@ -1,5 +1,7 @@
 from random import choice
 
+# This is new comment to commit
+
 HANGMAN = (
     """
      ------
