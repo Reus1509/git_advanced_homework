@@ -81,14 +81,14 @@ WORDS = ("python", "игра", "программирование")  # Здесь
 word = choice(WORDS)  
 so_far = "_" * len(word)  
 wrong = 0  
-used = [] 
+used = [] # Добавил сюда комментарий 
 
 while wrong < max_wrong and so_far != word:
     print(HANGMAN[wrong])  # Вывод висельника по индексу
     print("\nВы использовали следующие буквы:\n", used)
     print("\nНа данный момент слово выглядит так:\n", so_far)
 
-    guess = input("\n\nВведите свое предположение: ")  
+    guess = input("\n\nВведите свое предположение: ")  # И сюда
 
     while guess in used:
         print("Вы уже вводили букву", guess)  # Если буква уже вводилась ранее, то выводим соответствующее сообщение
