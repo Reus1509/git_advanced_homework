@@ -1,3 +1,2 @@
-This repository I used to push my homework in git advanced course!
-
-Add some text to commit 2 for homework2
+### Добро пожаловать в игру "Виселица" эта игра подарит вам массу радости)))
+## В данынй момент в игре загадывается одно слова из трех, попробуй угадать
